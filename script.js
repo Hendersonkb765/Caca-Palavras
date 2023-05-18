@@ -22,27 +22,27 @@ function clicado(){
 
 function verificarAcertos(){
     //GOKU
-    let ag = document.querySelector(".l4").innerHTML
-    let ao = document.querySelector(".l9").innerHTML
-    let ak = document.querySelector(".l14").innerHTML
-    let au = document.querySelector(".l19").innerHTML
+    let ag = document.querySelector(".l4")
+    let ao = document.querySelector(".l9")
+    let ak = document.querySelector(".l14")
+    let au = document.querySelector(".l19")
 
     
     //AMOR
-    let ba = document.querySelector(".l7").innerHTML
-    let bm = document.querySelector(".l8").innerHTML
-    let bo = document.querySelector(".l9").innerHTML
-    let br = document.querySelector(".l10").innerHTML
+    let ba = document.querySelector(".l7")
+    let bm = document.querySelector(".l8")
+    let bo = document.querySelector(".l9")
+    let br = document.querySelector(".l10")
 
     //KALA
-    let ck = document.querySelector(".l2").innerHTML
-    let ca = document.querySelector(".l7").innerHTML
-    let cl = document.querySelector(".l12").innerHTML
-    let ca1 = document.querySelector(".l17").innerHTML
+    let ck = document.querySelector(".l2")
+    let ca = document.querySelector(".l7")
+    let cl = document.querySelector(".l12")
+    let ca1 = document.querySelector(".l17")
 
     
-    if(ag.classList[0] == "certo"&& ao.classList[0] == "certo" && ak.classList[0] == "certo" 
-    && au.classList[0] == "certo"){
+    if(ag.classList[1] == "certo"&& ao.classList[1] == "certo" && ak.classList[1] == "certo" 
+    && au.classList[1] == "certo"){
         alert("Goku")
     }
     else if(ba == "a" && bm =="m" && bo == "o" && br == "r"){
