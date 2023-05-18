@@ -41,14 +41,22 @@ function verificarAcertos(){
     let ca1 = document.querySelector(".l17")
 
     
-    if(ag.classList[1] == "certo"&& ao.classList[1] == "certo" && ak.classList[1] == "certo" 
+    if(ag.classList[1] == "certo"
+    && ao.classList[1] == "certo" 
+    && ak.classList[1] == "certo" 
     && au.classList[1] == "certo"){
         alert("Goku")
     }
-    else if(ba == "a" && bm =="m" && bo == "o" && br == "r"){
+    else if(ba.classList[1] == "certo" 
+    && bm.classList[1] =="certo"
+     && bo.classList[1] == "certo" 
+     && br.classList[1] == "certo"){
         alert("Amor")
     }
-    else if(ck == "k" && ca == "a" && cl == "l" && ca1 == "a"){
+    else if(ck.classList[1] == "certo" 
+    && ca.classList[1] == "certo"
+     && cl.classList[1] == "certo" 
+     && ca1.classList[1] == "certo"){
         alert("Kala")
     }
 
